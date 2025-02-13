@@ -291,179 +291,76 @@ var dialogI18nTitles = [
 			'ZO': '축소',
 			'INIT': 'Init',
 		}
-	},{
-                lang: 'tr',
-                titles: {
-                        'INFO': 'Bilgi',
-                        'FBD': 'Sigorta Kutusu Şeması',
-                        'HLD': 'Kablo Demeti Yerleşim Şeması',
-                        'GPL': 'Topraklama Noktası Düzeni',
-                        'SP': 'Sistem İlkesi',
-                        'PSDD': 'Güç Kaynağı Dağıtım Şeması',
-                        'AP': 'Bağlantı İlişkisi',
-                        'EINF': 'Öge Kimliği bulunamadı',
-                        'AD1': 'İlişkili Veriler 1',
-                        'AD2': 'İlişkili Veriler 2',
-                        'AD3': 'İlişkili Veriler 3',
-                        'LOAD': 'Yükleniyor...',
-                        'FULL': 'Tam ekran',
-                        'CFULL': 'Tam Ekran İptal Et',
-                        'ZI': 'Yakınlaştır',
-                        'ZO': 'Uzaklaştır',
-                        'INIT': 'Başlat',
-                }
-        },
-        {
-                lang: 'id',
-                titles: {
-                        'INFO': 'Informasi',
-                        'FBD': 'Diagram Kotak Sekering',
-                        'HLD': 'Diagram Tata Letak Harnes',
-                        'GPL': 'Tata Letak Titik Pembumian',
-                        'SP': 'Prinsip Sistem',
-                        'PSDD': 'Diagram Distribusi Catu Daya',
-                        'AP': 'Hubungan Asosiasi',
-                        'EINF': 'ID elemen tidak ditemukan',
-                        'AD1': 'Data Terkait 1',
-                        'AD2': 'Data Terkait 2',
-                        'AD3': 'Data Terkait 3',
-                        'LOAD': 'Memuat... ...',
-                        'FULL': 'Layar Penuh',
-                        'CFULL': 'Batalkan Layar penuh',
-                        'ZI': 'Perbesar',
-                        'ZO': 'Perkecil',
-                        'INIT': 'Inisialisasi',
-                }
-        },
-		{
-			lang: 'pl',
-			titles: {
-				'INFO': 'Informacje',
-				'FBD': 'Schemat skrzynki bezpieczników',
-				'HLD': 'Schemat układu wiązki przewodów',
-				'GPL': 'Układ punktu uziemienia',
-				'SP': 'Zasada systemowa',
-				'PSDD': 'Schemat dystrybucji zasilania',
-				'AP': 'Relacja stowarzyszenia',
-				'EINF': 'Nie znaleziono identyfikatora elementu',
-				'AD1': 'Powiązane dane 1',
-				'AD2': 'Powiązane dane 2',
-				'AD3': 'Powiązane dane 3',
-				'LOAD': 'Memuat……',
-				'FULL': 'Tryb pełnoekranowy',
-				'CFULL': 'Anuluj tryb pełnoekranowy',
-				'ZI': 'Powiększ',
-				'ZO': 'Pomniejsz',
-				'INIT': 'Zainicjuj',
-			}
-		},{
-                lang: 'el',
-                titles: {
-                        'INFO': 'Πληροφορίες',
-                        'FBD': 'Διάγραμμα ασφαλειοθήκης',
-                        'HLD': 'Διάγραμμα διάταξης καλωδίωσης',
-                        'GPL': 'Διάταξη σημείου γείωσης',
-                        'SP': 'Αρχή συστήματος',
-                        'PSDD': 'Διάγραμμα διανομής τροφοδοσίας ρεύματος',
-                        'AP': 'Σχέση συνδέσμου',
-                        'EINF': 'Το αναγνωριστικό στοιχείου δεν βρέθηκε',
-                        'AD1': 'Σχετικά δεδομένα 1',
-                        'AD2': 'Σχετικά δεδομένα 2',
-                        'AD3': 'Σχετικά δεδομένα 3',
-                        'LOAD': 'Φόρτωση... ...',
-                        'FULL': 'Πλήρης οθόνη',
-                        'CFULL': 'Ακύρωση πλήρους οθόνης',
-                        'ZI': 'Μεγέθυνση',
-                        'ZO': 'Σμίκρυνση',
-                        'INIT': 'Init',
-                }
-        },{
-                lang: 'et',
-                titles: {
-                        'INFO': 'Teave',
-                        'FBD': 'Kaitsmekarbi skeem',
-                        'HLD': 'Juhtmestiku paigutuse skeem',
-                        'GPL': 'Maanduspunkti paigutus',
-                        'SP': 'Süsteemi põhimõte',
-                        'PSDD': 'Toitesüsteemi jaotusskeem',
-                        'AP': 'Assotsiatsioonisuhe',
-                        'EINF': 'Elemendi ID-d ei leitud',
-                        'AD1': 'Seotud andmed 1',
-                        'AD2': 'Seotud andmed 2',
-                        'AD3': 'Seotud andmed 3',
-                        'LOAD': 'Laadimine... ...',
-                        'FULL': 'Täisekraan',
-                        'CFULL': 'Tühista täisekraan',
-                        'ZI': 'Suurenda',
-                        'ZO': 'Vähenda',
-                        'INIT': 'Algne',
-                }
-        },{
-                lang: 'ro',
-                titles: {
-                        'INFO': 'Informații',
-                        'FBD': 'Diagramă cutie de siguranțe',
-                        'HLD': 'Diagramă de dispunere a cablajelor',
-                        'GPL': 'Dispunere punct de împământare',
-                        'SP': 'Principiul sistemului',
-                        'PSDD': 'Diagramă cu distribuția sursei de alimentare',
-                        'AP': 'Relație de asociere',
-                        'EINF': 'ID-ul elementului nu a fost găsit',
-                        'AD1': 'Date asociate 1',
-                        'AD2': 'Date asociate 2',
-                        'AD3': 'Date asociate 3',
-                        'LOAD': 'Se încarcă... ...',
-                        'FULL': 'Ecran complet',
-                        'CFULL': 'Anulați modul Ecran complet',
-                        'ZI': 'Mărire',
-                        'ZO': 'Micșorare',
-                        'INIT': 'Inițializare',
-                }
-        },{
-                lang: 'lv',
-                titles: {
-                        'INFO': 'Informācija',
-                        'FBD': 'Drošinātāju kārbas diagramma',
-                        'HLD': 'Vadu izkārtojuma diagramma',
-                        'GPL': 'Zemējuma punkta izkārtojums',
-                        'SP': 'Sistēmas princips',
-                        'PSDD': 'Barošanas avota sadales shēma',
-                        'AP': 'Asociācijas saistība',
-                        'EINF': 'Elementa ID nav atrasts',
-                        'AD1': 'Saistītie dati 1',
-                        'AD2': 'Saistītie dati 2',
-                        'AD3': 'Saistītie dati 3',
-                        'LOAD': 'Notiek ielāde... ...',
-                        'FULL': 'Pilnekrāna režīms',
-                        'CFULL': 'Atcelt pilnekrāna režīmu',
-                        'ZI': 'Pietuvināt',
-                        'ZO': 'Attālināt',
-                        'INIT': 'Init',
-                }
-        },{
-                lang: 'lt',
-                titles: {
-                        'INFO': 'Informacija',
-                        'FBD': 'Saugiklių dėžutės schema',
-                        'HLD': 'Diržų išdėstymo schema',
-                        'GPL': 'Įžeminimo taško išdėstymas',
-                        'SP': 'Sistemos principas',
-                        'PSDD': 'Maitinimo šaltinio paskirstymo schema',
-                        'AP': 'Asociacijos santykiai',
-                        'EINF': 'Elemento ID nerastas',
-                        'AD1': 'Susiję duomenys 1',
-                        'AD2': 'Susiję duomenys 2',
-                        'AD3': 'Susiję duomenys 3',
-                        'LOAD': 'Įkeliama... ...',
-                        'FULL': 'Per visą ekraną',
-                        'CFULL': 'Atšaukti viso ekrano režimą',
-                        'ZI': 'Priartinti',
-                        'ZO': 'Nutolinti',
-                        'INIT': 'Init',
-                }
-        }
-
+	},
+	{
+		lang: 'uz-latn-uz',
+		titles: {
+			'INFO': 'Axborot',
+			'FBD': 'Saqlagich qutisi sxemasi',
+			'HLD': 'Toʻplamlar joylashuvi sxemasi',
+			'GPL': 'Yerga ulanish nuqtasi joylashuvi',
+			'SP': 'Tizim prinsipi',
+			'PSDD': 'Quvvat taʼminotini taqsimlash sxemasi',
+			'AP': 'Assotsiatsiya munosabati',
+			'EINF': 'Element ID topilmadi',
+			'AD1': 'Aloqador maʼlumotlar 1',
+			'AD2': 'Aloqador maʼlumotlar 2',
+			'AD3': 'Aloqador maʼlumotlar 3',
+			'LOAD': 'Yuklanmoqda... ...',
+			'FULL': 'Butun ekran',
+			'CFULL': 'Butun ekran rejimini bekor qilish',
+			'ZI': 'Kattalashtirish',
+			'ZO': 'Kichiklashtirish',
+			'INIT': 'Ishga tushirish',
+		}
+	},
+	{
+		lang: 'ar-ae',
+		titles: {
+			'INFO': 'المعلومات',
+			'FBD': 'مخطط صندوق الصمامات',
+			'HLD': 'مخطط تصميم التطويع',
+			'GPL': 'تصميم نقطة التأريض',
+			'SP': 'مبدأ النظام',
+			'PSDD': 'مخطط توزيع الإمداد الكهربائي',
+			'AP': 'علاقة الارتباط',
+			'EINF': 'لم يتم العثور على معرِّف العنصر',
+			'AD1': 'البيانات المرتبطة 1',
+			'AD2': 'البيانات المرتبطة 2',
+			'AD3': 'البيانات المرتبطة 3',
+			'LOAD': 'جارٍ التحميل... ...',
+			'FULL': 'العرض بملء الشاشة',
+			'CFULL': 'إلغاء العرض بملء الشاشة',
+			'ZI': 'تكبير',
+			'ZO': 'تصغير',
+			'INIT': 'تهيئة',
+		}
+	},
+	{
+		lang: 'he',
+		titles: {
+			'INFO': 'מידע',
+			'FBD': 'תרשים תיבת נתיכים',
+			'HLD': 'תרשים פריסת צמת חיווט',
+			'GPL': 'פריסת נקודת הארקה',
+			'SP': 'עקרון המערכת',
+			'PSDD': 'תרשים חלוקת אספקת החשמל',
+			'AP': 'יחסי שיוך',
+			'EINF': 'מזהה רכיב לא נמצא',
+			'AD1': 'נתונים משויכים 1',
+			'AD2': 'נתונים משויכים 2',
+			'AD3': 'נתונים משויכים 3',
+			'LOAD': 'טוען... ...',
+			'FULL': 'מסך מלא',
+			'CFULL': 'ביטול מצב מסך מלא',
+			'ZI': 'הגדלת תצוגה',
+			'ZO': 'הקטנת תצוגה',
+			'INIT': 'הפעלה',
+		}
+	},
 ];
+// 获取手册语言
+var lang = document.querySelector('html')['lang'] && document.querySelector('html')['lang'].toLowerCase();
 // 文档当前语言dialog国际化title内容
 var currentDialogI18n;
 
@@ -513,23 +410,22 @@ function geturlValueByKey(key) {
  * @returns
  */
 function dialogI18nInit() {
-	var lang = document.querySelector('html')['lang'] && document.querySelector('html')['lang'].toLowerCase();
-    var currentI18n; 
-    // 遍历获取当前语言的弹窗title国际化
-    dialogI18nTitles.forEach(function (item, index) { 
-        if (item.lang === lang) {
-            currentI18n = item;
-        }
+	var currentI18n; 
+	// 遍历获取当前语言的弹窗title国际化
+	dialogI18nTitles.forEach(function (item, index) { 
+		if (item.lang === lang) {
+			currentI18n = item;
+		}
 	})
-    // 如果不存在，则默认使用英文title
-    if (currentI18n) {
-        currentDialogI18n = currentI18n.titles
-    } else {
-        dialogI18nTitles.forEach(function (item, index) {
-            if (item.lang === 'en-us') {
-                currentDialogI18n = item.titles;
-            }
-        })
+	// 如果不存在，则默认使用英文title
+	if (currentI18n) {
+		currentDialogI18n = currentI18n.titles
+	} else {
+		dialogI18nTitles.forEach(function (item, index) {
+			if (item.lang === 'en-us') {
+				currentDialogI18n = item.titles;
+			}
+		})
 	}
 }
 
@@ -1402,7 +1298,7 @@ function gTagHandle(svgDoc,embed_id) {
 			clearHighlight(svgDoc);
 			// cjj 2021-04-29 清除选中
 			clearGroupHighlight(svgDoc, this.getAttribute("data"));
-			this.setAttribute("filter", "url(#drop-shadow)");
+			// this.setAttribute("filter", "url(#drop-shadow)");
 			//得到层级或下一层级的text
 			var childNodes=this.parentNode.childNodes;
 			for (var pi = 0; pi < childNodes.length; pi++) {
@@ -1467,7 +1363,9 @@ function gTagHandle(svgDoc,embed_id) {
 			}
 			document.getElementById("sub_info").style.display="none";
 			clearHighlight(svgDoc);
-			this.setAttribute("filter", "url(#drop-shadow)");
+			if (this.hasAttribute('data')) {
+				this.setAttribute("filter", "url(#drop-shadow)");
+			}
 			//得到层级或下一层级的text
 			var childNodes=this.parentNode.childNodes;
 			for (var pi = 0; pi < childNodes.length; pi++) {
@@ -2073,7 +1971,7 @@ function setsub_info(objstr,selecttext,isduo){
 	//dialog_svgHandle();
 	//height 调整为 400px auto:gsj
 	document.getElementById("sub_info").style.height="720px";
-	document.getElementById("dialogtablediv").style.maxHeight="330px";
+	document.getElementById("dialogtablediv").style.maxHeight="374px";
 	if(!isduo){
 		document.getElementById("dialogobjs").style.display="none";
 		// auto:gsj  把360 修改为 260
@@ -3502,6 +3400,7 @@ function initFrameButton(){
 	initEle.src="./img/default/init.png";
 	initEle.title="初始化";
 	initEle.style.width='20px';
+	initEle.style.marginLeft='8px';
 	initEle.addEventListener("click", function () {
 		var svgobj = document.getElementById('svgobj')
 		var SVGDocument = svgobj.contentDocument;

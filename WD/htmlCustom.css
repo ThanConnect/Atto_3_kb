@@ -22,6 +22,23 @@ html {
   -webkit-font-smoothing: antialiased;
   overfl-y: scroll;
 }
+html[lang^='ar'],html[lang^='he']{
+  direction: rtl;
+}
+html[lang^='ar'] td[align='left'],
+html[lang^='ar'] tr[align='left'],
+html[lang^='he'] td[align='left'],
+html[lang^='he'] tr[align='left']
+{
+  text-align: right;
+}
+html[lang^='ar'] td[align='left'],
+html[lang^='ar'] tr[align='right'],
+html[lang^='he'] td[align='right'],
+html[lang^='he'] tr[align='right']
+{
+  text-align: left;
+}
 
 ::-webkit-scrollbar-track-piece {
   /*滚动条里面内轨道*/
@@ -44,9 +61,9 @@ html {
   background: #ededed;
 }
 
-/* 端子图弹窗定制滚动条宽度 */
+/* 去除端子图弹窗表格横向滚动条 */
 #dialogtablediv{
-  overflow-x: auto!important;
+  overflow-x: hidden !important;
 }
 #dialogtablediv::-webkit-scrollbar{
   height: 10px;
@@ -407,6 +424,9 @@ dt.prereq {
   text-align: left;
   border-bottom: 1pt solid rgb(104,109,113);
   /*font-family: 方正兰亭黑简体;*/
+}
+html[lang^='ar'] .section > h3.title.topictitle1,html[lang^='he'] .section > h3.title.topictitle1{
+  text-align: right;
 }
 .section {
   margin-top: 1em;
@@ -1447,7 +1467,7 @@ img {
   font-size: 14px;
   /*font-family: 方正兰亭黑简体 ;*/
   display: flex;
-  justify-content: left;
+  /* justify-content: left; */
   align-items: center;
   padding-left: 6pt;
   line-height: 30px;
@@ -1571,5 +1591,42 @@ canvas.oneTableLine {
 }
 th[name='diagonal'] {
     position: relative;
+}
+
+/* hzf 20240509 希伯来语和阿拉伯语右对齐处理 */
+html[lang *= 'he'] .ewdconbody,
+html[lang *= 'ar-ae'] .ewdconbody{
+  direction: rtl;
+}
+.ewdconbody #svgdiv{
+  /* svg不用右对齐，否则影响缩放位移计算 */
+  direction: ltr !important; 
+}
+html[lang *= 'he'] #titlediv,
+html[lang *= 'ar-ae'] #titlediv{
+  direction: rtl;
+}
+html[lang *= 'he'] #titlediv a,
+html[lang *= 'ar-ae'] #titlediv a{
+  right: unset !important;
+  left: 5px;
+}
+html[lang *= 'he'] .navC li,
+html[lang *= 'ar-ae'] .navC li{
+  float: right;
+}
+html[lang *= 'he'] #dialogtitle,
+html[lang *= 'ar-ae'] #dialogtitle{
+  direction: rtl;
+}
+html[lang *= 'he'] #dialogtitle::before,
+html[lang *= 'ar-ae'] #dialogtitle::before{
+  content: "";
+  display: table;
+  clear: both;
+}
+html[lang *= 'he'] #collapseTwo,
+html[lang *= 'ar-ae'] #collapseTwo{
+  direction: rtl;
 }
 
